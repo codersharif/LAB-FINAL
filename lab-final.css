@@ -1,0 +1,152 @@
+body{
+    background-color: #fff;
+    color: #000;
+}
+.menu{
+    color: #000;
+    text-align: center;
+}
+.p-1{
+    color: #000;
+    font-weight: bold;
+    background-color: hsl(0, 55%, 83%);
+    text-align: right;
+    padding: 5px;
+}
+.p-2{
+    color: #fff;
+    font-weight: bold;
+    background-color: red;
+    text-align: right;
+    padding: 5px;
+}
+.p-3{
+    color: #000;
+    font-weight: bold;
+    background-color: rgb(214, 153, 19);
+    text-align: right;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    font: left;
+    margin: 1px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+.col-4{
+    width: 32%;
+    float: left;
+    border: 1px solid #000;
+    margin: 2px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        font: left;
+        margin: 1px;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    
+    .col-sm-12{
+        width: 100%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 100%;
+        font: left;
+        margin: 1px;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        width: 100%;
+        font: left;
+        margin: 1px;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    
+    .col-sm-6{
+        width: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 100%;
+        font: left;
+        margin: 1px;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    
+    .col-4{
+        width: 32%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    
+    .col-4{
+        width: 32%;
+    }
+}
